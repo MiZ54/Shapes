@@ -1,0 +1,77 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: black;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+div{
+	margin: 30px;
+}
+.square{
+	width: 50px;
+	height: 50px;
+	background: deeppink;
+	box-shadow: 0px 0px 60px deeppink;
+}
+.circle{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: white;
+	box-shadow: 0px 0px 60px white;
+}
+.rectangle{
+	width: 90px;
+	height: 50px;
+	background: blue;
+	box-shadow: 0px 0px 60px blue;
+}
+.oval{
+	width: 90px;
+	height: 50px;
+	border-radius: 50%;
+	background: orangered;
+	box-shadow: 0px 0px 60px orangered;
+}
+.egg{
+	width: 60px;
+	height: 90px;
+	border-radius: 50% / 60% 60% 40% 40%;
+	background: red;
+	box-shadow: 0px 0px 60px red;
+}
+.parallelogram{
+	width: 90px;
+	height: 50px;
+	transform: skew(20deg);
+	background: springgreen;
+	box-shadow: 0px 0px 60px springgreen;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
